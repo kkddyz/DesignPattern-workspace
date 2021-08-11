@@ -1,4 +1,4 @@
-package builer.robotPlan;
+package builder.robotPlan;
 
 /**
  * @author kkddyz

@@ -1,4 +1,4 @@
-package builer.robotPlan;
+package builder.robotPlan;
 
 /**
  * Set the fields for Robots built using this specific specification(具体规格)
@@ -33,8 +33,13 @@ public class OldRobotBuilder implements RobotBuilder {
     }
 
     @Override
-    public Robot getRobot() {
-        return this.robot;
+    public Robot build() {
+        buildRobotHead();
+        buildRobotTorso();
+        buildRobotArms();
+        buildRobotLegs();
+
+        return robot;
     }
 
 

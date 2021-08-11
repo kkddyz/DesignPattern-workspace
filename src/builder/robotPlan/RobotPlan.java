@@ -1,4 +1,4 @@
-package builer.robotPlan;
+package builder.robotPlan;
 
 /**
  * defines all the methods a robot must have
