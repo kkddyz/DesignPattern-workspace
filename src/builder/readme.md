@@ -25,6 +25,9 @@
 ### Demo : Robot
 
 ![image-20210811221420828](https://kkddyz-oss-image-hosting-service.oss-cn-hangzhou.aliyuncs.com/image/20210811221421.png)
-
+---
+### 总结
+每次commit都减少一些类,使得builder pattern看起来十分简单.
+但是代码的弹性在减少.
 
 

@@ -3,28 +3,28 @@ package builder.robotPlan;
 /**
  * @author kkddyz
  */
-public class Robot implements RobotPlan{
+public class Robot {
     private String robotHead;
     private String robotTorso;
     private String robotArms;
     private String robotLegs;
 
-    @Override
+
     public void setRobotHead(String head) {
-        robotHead =  head;
+        robotHead = head;
     }
 
-    @Override
+
     public void setRobotTorso(String torso) {
         robotTorso = torso;
     }
 
-    @Override
+
     public void setRobotArms(String arms) {
         robotArms = arms;
     }
 
-    @Override
+
     public void setRobotLegs(String legs) {
         robotLegs = legs;
     }
