@@ -20,5 +20,6 @@ public class RobotEngineer {
         this.robotBuilder.buildRobotTorso();
         this.robotBuilder.buildRobotArms();
         this.robotBuilder.buildRobotLegs();
+
     }
 }
