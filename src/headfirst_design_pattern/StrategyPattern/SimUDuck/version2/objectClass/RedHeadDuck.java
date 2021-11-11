@@ -1,8 +1,9 @@
 package headfirst_design_pattern.StrategyPattern.SimUDuck.version2.objectClass;
 
-import StrategyPattern.SimUDuck.version2.behaviorClass.Interface.FlyBehavior;
-import StrategyPattern.SimUDuck.version2.behaviorClass.Interface.QuackBehavior;
-import StrategyPattern.SimUDuck.version2.behaviorClass.Interface.DisplayBehavior;
+
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Interface.DisplayBehavior;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Interface.FlyBehavior;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Interface.QuackBehavior;
 
 /**
  * @program: HeadFirstDesignPatterns

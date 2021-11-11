@@ -1,6 +1,7 @@
 package headfirst_design_pattern.DecoratorPattern.Starbuzz.Condiment;
 
-import DecoratorPattern.Starbuzz.Baverage.Beverage;
+
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Baverage.Beverage;
 
 public abstract class CondimentDecorator extends Beverage {
     Beverage beverage;

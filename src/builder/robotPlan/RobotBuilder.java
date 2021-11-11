@@ -1,4 +1,4 @@
-package builer.robotPlan;
+package builder.robotPlan;
 
 /**
  * defines what every robot has
@@ -15,5 +15,5 @@ public interface RobotBuilder {
 
     void buildRobotLegs();
 
-    Robot getRobot();
+    Robot build();
 }

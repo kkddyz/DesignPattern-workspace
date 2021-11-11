@@ -1,10 +1,11 @@
 package headfirst_design_pattern.StrategyPattern.SimUDuck.version2;
 
-import StrategyPattern.SimUDuck.version2.behaviorClass.Implment.DisplayBehaviorImplRedHead;
-import StrategyPattern.SimUDuck.version2.behaviorClass.Implment.DisplayBehaviorImplGreenHead;
-import StrategyPattern.SimUDuck.version2.behaviorClass.Implment.FlyBehaviorImpl;
-import StrategyPattern.SimUDuck.version2.behaviorClass.Implment.QuackBehaviorImplGu;
-import StrategyPattern.SimUDuck.version2.objectClass.RedHeadDuck;
+
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Implment.DisplayBehaviorImplGreenHead;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Implment.DisplayBehaviorImplRedHead;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Implment.FlyBehaviorImpl;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Implment.QuackBehaviorImplGu;
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.objectClass.RedHeadDuck;
 
 /**
  * @program: HeadFirstDesignPatterns

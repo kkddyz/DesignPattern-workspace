@@ -1,9 +1,10 @@
 package headfirst_design_pattern.DecoratorPattern.Starbuzz;
 
-import DecoratorPattern.Starbuzz.Baverage.Espresso;
-import DecoratorPattern.Starbuzz.Baverage.Whip;
-import DecoratorPattern.Starbuzz.Condiment.Mocha;
-import DecoratorPattern.Starbuzz.Condiment.Soy;
+
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Baverage.Espresso;
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Baverage.Whip;
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Condiment.Mocha;
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Condiment.Soy;
 
 public class Test {
 

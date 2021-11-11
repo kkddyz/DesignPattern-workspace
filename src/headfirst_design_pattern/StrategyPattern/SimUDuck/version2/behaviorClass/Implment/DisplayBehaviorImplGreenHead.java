@@ -1,6 +1,7 @@
 package headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Implment;
 
-import StrategyPattern.SimUDuck.version2.behaviorClass.Interface.DisplayBehavior;
+
+import headfirst_design_pattern.StrategyPattern.SimUDuck.version2.behaviorClass.Interface.DisplayBehavior;
 
 /**
  * @program: HeadFirstDesignPatterns

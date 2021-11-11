@@ -1,7 +1,7 @@
 package headfirst_design_pattern.DecoratorPattern.Starbuzz.Condiment;
 
-import DecoratorPattern.Starbuzz.Baverage.Beverage;
-import org.omg.CORBA.CODESET_INCOMPATIBLE;
+
+import headfirst_design_pattern.DecoratorPattern.Starbuzz.Baverage.Beverage;
 
 public class Mocha extends CondimentDecorator{
 

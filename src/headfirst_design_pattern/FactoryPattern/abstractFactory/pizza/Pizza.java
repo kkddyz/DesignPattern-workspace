@@ -15,17 +15,23 @@ public abstract class Pizza {
     Pepperoni pepperoni;
     Clams clam;
 
-    public abstract void prepare(); // 准备pizza所需的原料
+    /**
+     *  准备pizza所需的原料
+     */
+    public abstract void prepare();
 
     public void bake(){
-        System.out.println("Bke for 25 minutes at 350");
+        // 烘培25min
+        System.out.println("Bake for  25 minutes at 350");
     }
 
     public void cut(){
-        System.out.println("Cutting the pizza into diagonal slices"); //  diagoanl 对角的
+        // 对角切碎
+        System.out.println("Cutting the pizza into diagonal slices");
     }
 
     public void box(){
+        // 装盒打包
         System.out.println("Place pizza in official PizzaStore box");
     }
 
