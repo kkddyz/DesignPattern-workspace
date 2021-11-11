@@ -1,0 +1,6 @@
+java.lang.Proxy : provides static methods for creating dynamic proxy
+classes and instances, and it is also the superclass of all
+dynamic proxy classes created by those methods.
+
+java.lang.invocationHandler is the interface implemented by
+the invocation handler of a proxy instance.
