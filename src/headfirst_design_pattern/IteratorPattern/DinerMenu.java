@@ -1,14 +1,14 @@
 package headfirst_design_pattern.IteratorPattern;
 
-import headfirst_design_pattern.IteratorPattern.Iterator.DinerMenuIterator;
-import headfirst_design_pattern.IteratorPattern.Iterator.Iterator;
+
+import java.util.Iterator;
 
 /**
  * @author kkddyz
  * @date 2021/11/17
  * @description 餐厅菜单
  */
-public class DinerMenu {
+public class DinerMenu implements Menu{
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -40,6 +40,7 @@ public class DinerMenu {
     /**
      * 返回迭代器接口
      */
+    @Override
     public Iterator createIterator() {
         return new DinerMenuIterator(this.menuItems);
     }

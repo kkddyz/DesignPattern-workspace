@@ -1,13 +1,14 @@
 package headfirst_design_pattern.IteratorPattern;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @author kkddyz
  * @date 2021/11/17
  * @description 煎饼屋菜单
  */
-public class PancakeHouseMenu{
+public class PancakeHouseMenu implements Menu{
     ArrayList menuItems;
 
     public PancakeHouseMenu() {
@@ -24,8 +25,11 @@ public class PancakeHouseMenu{
         menuItems.add(menuItem);
     }
 
-    public ArrayList getMenuItems() {
-        return menuItems;
+
+    @Override
+    public Iterator createIterator(){
+        // 返回arrayList的迭代器
+        return menuItems.iterator();
     }
 
     // 其他依赖ArrayList的方法...

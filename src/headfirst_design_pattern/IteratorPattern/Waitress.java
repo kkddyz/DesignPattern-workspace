@@ -1,8 +1,7 @@
 package headfirst_design_pattern.IteratorPattern;
 
-import headfirst_design_pattern.IteratorPattern.Iterator.Iterator;
 
-import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @author kkddyz
@@ -11,20 +10,36 @@ import java.util.ArrayList;
  */
 public class Waitress {
 
-    /**
-     * 打印午餐菜单
-     */
-    public void printLunchMenu() {
-        DinerMenu dinerMenu = new DinerMenu();
+    Menu breakfastMenu = new PancakeHouseMenu();
+    Menu lunchMenu = new DinerMenu();
 
-        // 午餐菜单
-        Iterator iterator = dinerMenu.createIterator();
-        while (iterator.hasNext()){
+    public Waitress(Menu breakfastMenu, Menu lunchMenu) {
+        this.breakfastMenu = breakfastMenu;
+        this.lunchMenu = lunchMenu;
+    }
+
+    /**
+     * 打印菜单
+     */
+    public void printMenu() {
+
+        Iterator breakfastMenuIterator = breakfastMenu.createIterator();
+        Iterator lunchMenuIterator = lunchMenu.createIterator();
+
+        System.out.println("打印breakfastMenu");
+        printMenu(breakfastMenuIterator);
+
+        System.out.println("打印lunchMenu");
+        printMenu(lunchMenuIterator);
+    }
+
+    private void printMenu(Iterator iterator) {
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
 
     public static void main(String[] args) {
-        new Waitress().printLunchMenu();
+        new Waitress(new PancakeHouseMenu(),new DinerMenu()).printMenu();
     }
 }

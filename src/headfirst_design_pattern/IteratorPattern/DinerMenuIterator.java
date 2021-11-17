@@ -1,6 +1,13 @@
-package headfirst_design_pattern.IteratorPattern.Iterator;
+package headfirst_design_pattern.IteratorPattern;
 
-import headfirst_design_pattern.IteratorPattern.MenuItem;
+/**
+ * @author kkddyz
+ * @date 2021/11/17
+ * @description
+ */
+
+
+import java.util.Iterator;
 
 /**
  * @author kkddyz
