@@ -10,8 +10,8 @@ import java.util.Iterator;
  */
 public class Waitress {
 
-    Menu breakfastMenu = new PancakeHouseMenu();
-    Menu lunchMenu = new DinerMenu();
+    Menu breakfastMenu;
+    Menu lunchMenu;
 
     public Waitress(Menu breakfastMenu, Menu lunchMenu) {
         this.breakfastMenu = breakfastMenu;
