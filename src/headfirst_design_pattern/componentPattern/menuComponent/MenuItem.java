@@ -7,11 +7,8 @@ package headfirst_design_pattern.componentPattern.menuComponent;
  */
 public class MenuItem extends MenuComponent {
     String name;
-
     String description;
-
     boolean isVegetarian;
-
     double price;
 
     public MenuItem(String name, String description, boolean isVegetarian, double price) {
