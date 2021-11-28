@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+	<!--RefinedAbstraction-->
+	<className>homework.bridge.Image.GIFImage</className>
+	<!--ConcreteImplementor-->
+	<className>homework.bridge.OS.Windows</className>
+</config>
