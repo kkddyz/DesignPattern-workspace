@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>designpatterns.facade.NewEncryptFacade</className>
+    <className>homework.facade.EncryptFacade1</className>
 </config>

@@ -1,18 +1,18 @@
-//designpatterns.facade.NewEncryptFacade.java
 package homework.facade;
 
-public class NewEncryptFacade extends AbstractEncryptFacade {
+public class EncryptFacade2 extends AbstractEncryptFacade {
 	private FileReader reader;
-	private NewCipherMachine cipher;
+	private CipherMachine2 cipher;
 	private FileWriter writer;
 	
-	public NewEncryptFacade() {
+	public EncryptFacade2() {
 		reader = new FileReader();
-		cipher = new NewCipherMachine();
+		cipher = new CipherMachine2();
 		writer = new FileWriter();
 	}
 	
-	public void fileEncrypt(String fileNameSrc, String fileNameDes) {
+	@Override
+    public void fileEncrypt(String fileNameSrc, String fileNameDes) {
 		String plainStr = reader.read(fileNameSrc);
 		String encryptStr = cipher.encrypt(plainStr);
 		writer.write(encryptStr,fileNameDes);

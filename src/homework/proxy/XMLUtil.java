@@ -1,5 +1,4 @@
-//designpatterns.facade.XMLUtil.java
-package homework.facade;
+package homework.proxy;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
@@ -13,7 +12,7 @@ public class XMLUtil {
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;
-			doc = builder.parse(new File("src//homework//facade//config.xml"));
+			doc =builder.parse(new File("src//homework//proxy//config.xml"));
 
 			//获取包含类名的文本节点
 			NodeList nl = doc.getElementsByTagName("className");

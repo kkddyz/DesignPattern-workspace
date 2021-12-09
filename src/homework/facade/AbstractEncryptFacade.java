@@ -1,4 +1,4 @@
-//designpatterns.facade.AbstractEncryptFacade.java
+
 package homework.facade;
 
 public abstract class AbstractEncryptFacade {

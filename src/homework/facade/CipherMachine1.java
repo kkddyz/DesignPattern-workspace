@@ -1,10 +1,13 @@
-//designpatterns.facade.CipherMachine.java
+
 package homework.facade;
 
-//���ݼ����ࣺ��ϵͳ��
-public class CipherMachine {
+/**
+ * @author kkddyz
+ * 数据加密类
+ */
+public class CipherMachine1 {
 	public String encrypt(String plainText) {
-		System.out.print("���ݼ��ܣ�������ת��Ϊ���ģ�");
+		System.out.print("数据加密，将明文转换为密文：");
 		String es = "";
 		for(int i = 0; i < plainText.length(); i++) {
 			String c = String.valueOf(plainText.charAt(i) % 7);
